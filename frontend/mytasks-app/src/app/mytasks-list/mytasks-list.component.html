@@ -1,0 +1,29 @@
+<div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Titulo</th>
+          <th>Descrição</th>
+          <th>Ações</th>
+          <th>Concluido</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let task of tasks">
+          <td>{{ task.id }}</td>
+          <td>{{ task.title }}</td>
+          <td>{{ task.description }}</td>
+          <td>
+            <button id="btn-update" class="btn btn-primary" [routerLink]="['/mytasksupdate', task.id ]">Atualizar</button>
+            <button id="btn-delete" class="btn btn-danger" (click)="deleteTask(task.id)">Remover</button>
+          </td>
+          <td><input
+            type="checkbox"
+            [checked]="isDone"
+            (change)="isDone = !isDone" (click)="markAsDone(task.id)" /></td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="btn-add" class="btn btn-primary" routerLink="/mystaskscreate">Adicionar Tarefa</button>
+  </div>

@@ -1,0 +1,36 @@
+# Compiled output
+dist/
+out/
+
+# Cache files
+tmp/
+*.tsbuildinfo
+
+# Logs
+logs/
+
+# IDE-specific files
+.idea/
+.metadata/.plugins/
+.angular/cache
+.angular/tmp
+
+# Local storage
+localstorage/
+
+# Test results
+coverage/
+
+# Editor config
+.vscode/
+
+# Docker files
+Dockerfile*
+docker-compose.yml
+
+# Serverless
+.serverless/
+
+# Misc
+npm-debug.log*
+yarn-error.log*

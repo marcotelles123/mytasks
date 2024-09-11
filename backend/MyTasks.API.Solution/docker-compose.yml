@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  api:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_PASSWORD: 123
+    ports:
+      - "5432:5432"
+  frontend:
+    image: mytasks-app
+    ports:
+      - "4200:4200"
+  

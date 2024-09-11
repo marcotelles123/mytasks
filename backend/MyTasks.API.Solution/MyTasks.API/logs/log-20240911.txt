@@ -1,0 +1,402 @@
+2024-09-11 14:00:13.869 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-11 14:00:19.123 -03:00 [DBG] Hosting starting
+2024-09-11 14:00:29.121 -03:00 [DBG] Connection id "0HN6IGCUL6R4H" received FIN.
+2024-09-11 14:00:29.200 -03:00 [DBG] Connection id "0HN6IGCUL6R4I" received FIN.
+2024-09-11 14:00:29.271 -03:00 [DBG] Connection id "0HN6IGCUL6R4I" accepted.
+2024-09-11 14:00:29.283 -03:00 [DBG] Connection id "0HN6IGCUL6R4I" started.
+2024-09-11 14:00:29.289 -03:00 [INF] Now listening on: https://localhost:7173
+2024-09-11 14:00:29.294 -03:00 [INF] Now listening on: http://localhost:5249
+2024-09-11 14:00:29.312 -03:00 [DBG] Loaded hosting startup assembly MyTasks.API
+2024-09-11 14:00:29.327 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-11 14:00:29.329 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-11 14:00:29.334 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-11 14:00:29.274 -03:00 [DBG] Connection id "0HN6IGCUL6R4H" accepted.
+2024-09-11 14:00:30.795 -03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-11 14:00:31.777 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 14:00:32.327 -03:00 [DBG] Connection id "0HN6IGCUL6R4H" started.
+2024-09-11 14:00:32.370 -03:00 [INF] Hosting environment: Development
+2024-09-11 14:00:32.377 -03:00 [INF] Content root path: D:\projects\desafiozup\backend\MyTasks.API.Solution\MyTasks.API
+2024-09-11 14:00:32.381 -03:00 [DBG] Connection id "0HN6IGCUL6R4I" stopped.
+2024-09-11 14:00:32.382 -03:00 [DBG] Hosting started
+2024-09-11 14:00:32.390 -03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-11 14:00:32.418 -03:00 [DBG] Connection id "0HN6IGCUL6R4I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:00:32.445 -03:00 [DBG] Connection id "0HN6IGCUL6R4H" stopped.
+2024-09-11 14:00:32.455 -03:00 [DBG] Connection id "0HN6IGCUL6R4H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:00:37.441 -03:00 [DBG] Connection id "0HN6IGCUL6R4J" accepted.
+2024-09-11 14:00:41.760 -03:00 [DBG] Connection id "0HN6IGCUL6R4J" started.
+2024-09-11 14:00:46.742 -03:00 [DBG] Connection 0HN6IGCUL6R4J established using the following protocol: "Tls12"
+2024-09-11 14:00:52.612 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/index.html - null null
+2024-09-11 14:00:58.014 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-11 14:00:59.300 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-09-11 14:00:59.379 -03:00 [DBG] Request did not match any endpoints
+2024-09-11 14:00:59.892 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-11 14:01:00.064 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-11 14:01:00.508 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-11 14:01:00.512 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-11 14:01:00.521 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/index.html - 200 null text/html;charset=utf-8 7933.8946ms
+2024-09-11 14:01:07.797 -03:00 [DBG] Connection id "0HN6IGCUL6R4J" received FIN.
+2024-09-11 14:01:07.816 -03:00 [DBG] The connection queue processing loop for 0HN6IGCUL6R4J completed.
+2024-09-11 14:01:07.828 -03:00 [DBG] Connection id "0HN6IGCUL6R4J" is closed. The last processed stream ID was 1.
+2024-09-11 14:01:07.835 -03:00 [DBG] Connection id "0HN6IGCUL6R4J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:01:07.862 -03:00 [DBG] Connection id "0HN6IGCUL6R4J" stopped.
+2024-09-11 14:01:12.915 -03:00 [DBG] Connection id "0HN6IGCUL6R4K" accepted.
+2024-09-11 14:01:13.006 -03:00 [DBG] Connection id "0HN6IGCUL6R4K" started.
+2024-09-11 14:01:14.966 -03:00 [DBG] Connection 0HN6IGCUL6R4K established using the following protocol: "Tls12"
+2024-09-11 14:01:17.027 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-11 14:01:17.880 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 859.228ms
+2024-09-11 14:01:22.868 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/_vs/browserLink - null null
+2024-09-11 14:01:23.233 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/_vs/browserLink - 200 null text/javascript; charset=UTF-8 365.6064ms
+2024-09-11 14:01:27.566 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/v1/swagger.json - null null
+2024-09-11 14:01:27.581 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-09-11 14:01:27.585 -03:00 [DBG] Request did not match any endpoints
+2024-09-11 14:01:28.395 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 828.8522ms
+2024-09-11 14:01:37.796 -03:00 [DBG] Connection id "0HN6IGCUL6R4K" received FIN.
+2024-09-11 14:01:37.801 -03:00 [DBG] Connection id "0HN6IGCUL6R4K" is closed. The last processed stream ID was 5.
+2024-09-11 14:01:37.801 -03:00 [DBG] The connection queue processing loop for 0HN6IGCUL6R4K completed.
+2024-09-11 14:01:37.817 -03:00 [DBG] Connection id "0HN6IGCUL6R4K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:01:37.849 -03:00 [DBG] Connection id "0HN6IGCUL6R4K" stopped.
+2024-09-11 14:02:54.007 -03:00 [DBG] Connection id "0HN6IGCUL6R4L" accepted.
+2024-09-11 14:02:54.035 -03:00 [DBG] Connection id "0HN6IGCUL6R4L" started.
+2024-09-11 14:02:54.708 -03:00 [DBG] Connection 0HN6IGCUL6R4L established using the following protocol: "Tls12"
+2024-09-11 14:02:54.786 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/MyTasks/GetAllTasks - null null
+2024-09-11 14:02:55.086 -03:00 [DBG] 1 candidate(s) found for the request path '/MyTasks/GetAllTasks'
+2024-09-11 14:02:55.637 -03:00 [DBG] Endpoint 'MyTasks.API.Controllers.MyTasksController.Get (MyTasks.API)' with route pattern 'MyTasks/GetAllTasks' is valid for the request path '/MyTasks/GetAllTasks'
+2024-09-11 14:02:55.648 -03:00 [DBG] Request matched endpoint 'MyTasks.API.Controllers.MyTasksController.Get (MyTasks.API)'
+2024-09-11 14:02:55.671 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-09-11 14:02:55.688 -03:00 [INF] Executing endpoint 'MyTasks.API.Controllers.MyTasksController.Get (MyTasks.API)'
+2024-09-11 14:02:55.798 -03:00 [INF] Route matched with {action = "Get", controller = "MyTasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MyTasks.API.DTOs.MyTaskDTO]] Get() on controller MyTasks.API.Controllers.MyTasksController (MyTasks.API).
+2024-09-11 14:02:55.854 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-11 14:02:55.898 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-11 14:02:55.922 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-11 14:02:55.979 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-11 14:02:55.990 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-11 14:02:56.108 -03:00 [DBG] Executing controller factory for controller MyTasks.API.Controllers.MyTasksController (MyTasks.API)
+2024-09-11 14:02:57.183 -03:00 [DBG] Executed controller factory for controller MyTasks.API.Controllers.MyTasksController (MyTasks.API)
+2024-09-11 14:02:57.198 -03:00 [INF] Iniciando o processamento da requisição
+2024-09-11 14:03:01.888 -03:00 [ERR] Error on GetAllTasks. Ex:System.Net.Sockets.SocketException (0x00002AF9): Este host não é conhecido.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 startingTimestamp)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at Npgsql.Internal.NpgsqlConnector.Connect(NpgsqlTimeout timeout)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1183
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at MyTasks.Infra.MyTasksRepositoryPostgres.GetAllMyTasks() in D:\projects\desafiozup\backend\MyTasks.API.Solution\MyTasks.Infra\MyTasksRepositoryPostgres.cs:line 31
+   at MyTasks.API.Controllers.MyTasksController.Get() in D:\projects\desafiozup\backend\MyTasks.API.Solution\MyTasks.API\Controllers\MyTasksController.cs:line 39
+2024-09-11 14:05:20.182 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-11 14:05:22.896 -03:00 [DBG] Hosting starting
+2024-09-11 14:05:24.460 -03:00 [INF] Now listening on: https://localhost:7173
+2024-09-11 14:05:24.550 -03:00 [INF] Now listening on: http://localhost:5249
+2024-09-11 14:05:24.635 -03:00 [DBG] Connection id "0HN6IGFMNEK21" accepted.
+2024-09-11 14:05:24.727 -03:00 [DBG] Connection id "0HN6IGFMNEK21" received FIN.
+2024-09-11 14:05:24.938 -03:00 [DBG] Loaded hosting startup assembly MyTasks.API
+2024-09-11 14:05:24.945 -03:00 [DBG] Connection id "0HN6IGFMNEK21" started.
+2024-09-11 14:05:25.097 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-11 14:05:25.160 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-11 14:05:25.170 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-11 14:05:25.179 -03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-11 14:05:25.274 -03:00 [DBG] Connection id "0HN6IGFMNEK21" stopped.
+2024-09-11 14:05:25.325 -03:00 [DBG] Connection id "0HN6IGFMNEK21" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:05:26.074 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 14:05:26.387 -03:00 [DBG] Connection id "0HN6IGFMNEK22" accepted.
+2024-09-11 14:05:29.834 -03:00 [INF] Hosting environment: Development
+2024-09-11 14:05:31.321 -03:00 [DBG] Connection id "0HN6IGFMNEK22" started.
+2024-09-11 14:05:31.328 -03:00 [INF] Content root path: D:\projects\desafiozup\backend\MyTasks.API.Solution\MyTasks.API
+2024-09-11 14:05:31.378 -03:00 [DBG] Hosting started
+2024-09-11 14:05:31.895 -03:00 [DBG] Connection 0HN6IGFMNEK22 established using the following protocol: "Tls12"
+2024-09-11 14:05:33.328 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/index.html - null null
+2024-09-11 14:05:34.577 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-11 14:05:34.927 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-09-11 14:05:35.208 -03:00 [DBG] Request did not match any endpoints
+2024-09-11 14:05:35.829 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-11 14:05:35.843 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-11 14:05:36.201 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-11 14:05:36.484 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-11 14:05:36.859 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/_vs/browserLink - null null
+2024-09-11 14:05:37.245 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-11 14:05:37.409 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 910.4736ms
+2024-09-11 14:05:37.606 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/index.html - 200 null text/html;charset=utf-8 4316.6787ms
+2024-09-11 14:05:38.393 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1533.9725ms
+2024-09-11 14:05:38.475 -03:00 [DBG] Connection id "0HN6IGFMNEK22" received FIN.
+2024-09-11 14:05:38.611 -03:00 [DBG] Connection id "0HN6IGFMNEK23" accepted.
+2024-09-11 14:05:39.065 -03:00 [DBG] Connection id "0HN6IGFMNEK23" started.
+2024-09-11 14:05:39.066 -03:00 [DBG] The connection queue processing loop for 0HN6IGFMNEK22 completed.
+2024-09-11 14:05:39.079 -03:00 [DBG] Connection id "0HN6IGFMNEK22" is closed. The last processed stream ID was 5.
+2024-09-11 14:05:39.178 -03:00 [DBG] Connection 0HN6IGFMNEK23 established using the following protocol: "Tls12"
+2024-09-11 14:05:39.191 -03:00 [DBG] Connection id "0HN6IGFMNEK22" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:05:39.210 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/v1/swagger.json - null null
+2024-09-11 14:05:39.270 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-09-11 14:05:39.277 -03:00 [DBG] Connection id "0HN6IGFMNEK22" stopped.
+2024-09-11 14:05:39.279 -03:00 [DBG] Request did not match any endpoints
+2024-09-11 14:05:40.078 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 867.8554ms
+2024-09-11 14:05:47.217 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/MyTasks/GetAllTasks - null null
+2024-09-11 14:05:49.294 -03:00 [DBG] 1 candidate(s) found for the request path '/MyTasks/GetAllTasks'
+2024-09-11 14:05:49.350 -03:00 [DBG] Endpoint 'MyTasks.API.Controllers.MyTasksController.Get (MyTasks.API)' with route pattern 'MyTasks/GetAllTasks' is valid for the request path '/MyTasks/GetAllTasks'
+2024-09-11 14:05:49.364 -03:00 [DBG] Request matched endpoint 'MyTasks.API.Controllers.MyTasksController.Get (MyTasks.API)'
+2024-09-11 14:05:49.416 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-09-11 14:05:49.430 -03:00 [INF] Executing endpoint 'MyTasks.API.Controllers.MyTasksController.Get (MyTasks.API)'
+2024-09-11 14:05:49.694 -03:00 [INF] Route matched with {action = "Get", controller = "MyTasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MyTasks.API.DTOs.MyTaskDTO]] Get() on controller MyTasks.API.Controllers.MyTasksController (MyTasks.API).
+2024-09-11 14:05:49.729 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-11 14:05:49.739 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-11 14:05:49.823 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-11 14:05:49.840 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-11 14:05:49.869 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-11 14:05:49.885 -03:00 [DBG] Executing controller factory for controller MyTasks.API.Controllers.MyTasksController (MyTasks.API)
+2024-09-11 14:05:50.907 -03:00 [DBG] Executed controller factory for controller MyTasks.API.Controllers.MyTasksController (MyTasks.API)
+2024-09-11 14:05:50.979 -03:00 [INF] Iniciando o processamento da requisição
+2024-09-11 14:05:51.981 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-11 14:05:52.498 -03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-09-11 14:05:52.511 -03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-09-11 14:05:52.526 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-11 14:05:52.533 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-11 14:05:52.544 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-11 14:05:52.551 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyTasks.API.DTOs.MyTaskDTO, MyTasks.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-11 14:05:52.616 -03:00 [INF] Executed action MyTasks.API.Controllers.MyTasksController.Get (MyTasks.API) in 2723.3756ms
+2024-09-11 14:05:52.843 -03:00 [INF] Executed endpoint 'MyTasks.API.Controllers.MyTasksController.Get (MyTasks.API)'
+2024-09-11 14:05:52.857 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/MyTasks/GetAllTasks - 200 null application/json; charset=utf-8 5634.1409ms
+2024-09-11 14:05:58.471 -03:00 [DBG] Connection id "0HN6IGFMNEK23" received FIN.
+2024-09-11 14:05:58.481 -03:00 [DBG] Connection id "0HN6IGFMNEK23" is closed. The last processed stream ID was 3.
+2024-09-11 14:05:58.481 -03:00 [DBG] The connection queue processing loop for 0HN6IGFMNEK23 completed.
+2024-09-11 14:05:58.487 -03:00 [DBG] Connection id "0HN6IGFMNEK23" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:05:58.508 -03:00 [DBG] Connection id "0HN6IGFMNEK23" stopped.
+2024-09-11 14:18:56.878 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-11 14:18:59.018 -03:00 [DBG] Hosting starting
+2024-09-11 14:19:03.307 -03:00 [INF] Now listening on: https://localhost:7173
+2024-09-11 14:19:03.313 -03:00 [DBG] Connection id "0HN6IGNAMVF3U" received FIN.
+2024-09-11 14:19:03.330 -03:00 [INF] Now listening on: http://localhost:5249
+2024-09-11 14:19:03.598 -03:00 [DBG] Loaded hosting startup assembly MyTasks.API
+2024-09-11 14:19:03.603 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-11 14:19:03.605 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-11 14:19:03.610 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-11 14:19:03.623 -03:00 [DBG] Connection id "0HN6IGNAMVF3U" accepted.
+2024-09-11 14:19:03.630 -03:00 [DBG] Connection id "0HN6IGNAMVF3U" started.
+2024-09-11 14:19:03.734 -03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-11 14:19:03.829 -03:00 [DBG] Connection id "0HN6IGNAMVF3U" stopped.
+2024-09-11 14:19:03.893 -03:00 [DBG] Connection id "0HN6IGNAMVF3U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:19:03.987 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 14:19:03.990 -03:00 [INF] Hosting environment: Development
+2024-09-11 14:19:03.993 -03:00 [INF] Content root path: D:\projects\desafiozup\backend\MyTasks.API.Solution\MyTasks.API
+2024-09-11 14:19:03.996 -03:00 [DBG] Hosting started
+2024-09-11 14:19:07.562 -03:00 [DBG] Connection id "0HN6IGNAMVF3V" accepted.
+2024-09-11 14:19:07.769 -03:00 [DBG] Connection id "0HN6IGNAMVF3V" started.
+2024-09-11 14:19:08.213 -03:00 [DBG] Connection 0HN6IGNAMVF3V established using the following protocol: "Tls12"
+2024-09-11 14:19:08.634 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/index.html - null null
+2024-09-11 14:19:09.540 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-11 14:19:09.747 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-09-11 14:19:09.785 -03:00 [DBG] Request did not match any endpoints
+2024-09-11 14:19:10.273 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-11 14:19:10.341 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-11 14:19:10.473 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-11 14:19:10.487 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-11 14:19:10.506 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/index.html - 200 null text/html;charset=utf-8 1909.9364ms
+2024-09-11 14:19:14.064 -03:00 [DBG] Connection id "0HN6IGNAMVF3V" received FIN.
+2024-09-11 14:19:16.522 -03:00 [DBG] Connection id "0HN6IGNAMVF40" accepted.
+2024-09-11 14:19:17.245 -03:00 [DBG] The connection queue processing loop for 0HN6IGNAMVF3V completed.
+2024-09-11 14:19:17.251 -03:00 [DBG] Connection id "0HN6IGNAMVF3V" is closed. The last processed stream ID was 1.
+2024-09-11 14:19:17.407 -03:00 [DBG] Connection id "0HN6IGNAMVF3V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:19:17.397 -03:00 [DBG] Connection id "0HN6IGNAMVF41" accepted.
+2024-09-11 14:19:17.397 -03:00 [DBG] Connection id "0HN6IGNAMVF40" started.
+2024-09-11 14:19:17.434 -03:00 [DBG] Connection id "0HN6IGNAMVF41" started.
+2024-09-11 14:19:17.445 -03:00 [DBG] Connection id "0HN6IGNAMVF3V" stopped.
+2024-09-11 14:19:17.709 -03:00 [DBG] Connection 0HN6IGNAMVF40 established using the following protocol: "Tls12"
+2024-09-11 14:19:17.659 -03:00 [DBG] Connection id "0HN6IGNAMVF41" received FIN.
+2024-09-11 14:19:18.024 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-11 14:19:18.025 -03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-11 14:19:18.028 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/_vs/browserLink - null null
+2024-09-11 14:19:18.114 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 93.543ms
+2024-09-11 14:19:18.119 -03:00 [DBG] Connection id "0HN6IGNAMVF41" stopped.
+2024-09-11 14:19:18.344 -03:00 [DBG] Connection id "0HN6IGNAMVF41" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:19:19.596 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1568.0698ms
+2024-09-11 14:19:21.198 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/v1/swagger.json - null null
+2024-09-11 14:19:23.029 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-09-11 14:19:23.073 -03:00 [DBG] Request did not match any endpoints
+2024-09-11 14:19:24.121 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2922.9572ms
+2024-09-11 14:19:28.739 -03:00 [DBG] Connection id "0HN6IGNAMVF40" received FIN.
+2024-09-11 14:19:28.749 -03:00 [DBG] Connection id "0HN6IGNAMVF40" is closed. The last processed stream ID was 5.
+2024-09-11 14:19:28.749 -03:00 [DBG] The connection queue processing loop for 0HN6IGNAMVF40 completed.
+2024-09-11 14:19:28.754 -03:00 [DBG] Connection id "0HN6IGNAMVF40" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:19:28.767 -03:00 [DBG] Connection id "0HN6IGNAMVF40" stopped.
+2024-09-11 14:26:55.067 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-11 14:26:55.680 -03:00 [DBG] Hosting starting
+2024-09-11 14:26:56.696 -03:00 [INF] Now listening on: https://localhost:7173
+2024-09-11 14:26:56.771 -03:00 [INF] Now listening on: http://localhost:5249
+2024-09-11 14:26:56.773 -03:00 [DBG] Loaded hosting startup assembly MyTasks.API
+2024-09-11 14:26:56.775 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-11 14:26:56.778 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-11 14:26:56.786 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-11 14:26:57.389 -03:00 [DBG] Connection id "0HN6IGRNVVUB1" accepted.
+2024-09-11 14:26:57.978 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-11 14:26:58.282 -03:00 [DBG] Connection id "0HN6IGRNVVUB1" received FIN.
+2024-09-11 14:26:57.404 -03:00 [DBG] Connection id "0HN6IGRNVVUB2" received FIN.
+2024-09-11 14:26:58.781 -03:00 [DBG] Connection id "0HN6IGRNVVUB1" started.
+2024-09-11 14:26:58.798 -03:00 [INF] Hosting environment: Development
+2024-09-11 14:26:58.838 -03:00 [INF] Content root path: D:\projects\desafiozup\backend\MyTasks.API.Solution\MyTasks.API
+2024-09-11 14:26:58.811 -03:00 [DBG] Connection id "0HN6IGRNVVUB2" accepted.
+2024-09-11 14:26:58.858 -03:00 [DBG] Hosting started
+2024-09-11 14:26:58.878 -03:00 [DBG] Connection id "0HN6IGRNVVUB2" started.
+2024-09-11 14:26:59.024 -03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-11 14:26:59.024 -03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-11 14:26:59.072 -03:00 [DBG] Connection id "0HN6IGRNVVUB2" stopped.
+2024-09-11 14:26:59.081 -03:00 [DBG] Connection id "0HN6IGRNVVUB1" stopped.
+2024-09-11 14:26:59.152 -03:00 [DBG] Connection id "0HN6IGRNVVUB2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:26:59.152 -03:00 [DBG] Connection id "0HN6IGRNVVUB1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:27:01.507 -03:00 [DBG] Connection id "0HN6IGRNVVUB3" accepted.
+2024-09-11 14:27:03.490 -03:00 [DBG] Connection id "0HN6IGRNVVUB3" started.
+2024-09-11 14:27:04.041 -03:00 [DBG] Connection 0HN6IGRNVVUB3 established using the following protocol: "Tls12"
+2024-09-11 14:27:04.645 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/index.html - null null
+2024-09-11 14:27:05.903 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-11 14:27:06.133 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-09-11 14:27:06.141 -03:00 [DBG] Request did not match any endpoints
+2024-09-11 14:27:06.672 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-11 14:27:10.382 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-11 14:27:16.638 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-11 14:27:19.367 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-11 14:27:19.923 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/index.html - 200 null text/html;charset=utf-8 15308.5769ms
+2024-09-11 14:27:23.969 -03:00 [DBG] Connection id "0HN6IGRNVVUB3" received FIN.
+2024-09-11 14:27:25.101 -03:00 [DBG] Connection id "0HN6IGRNVVUB3" is closed. The last processed stream ID was 1.
+2024-09-11 14:27:25.139 -03:00 [DBG] The connection queue processing loop for 0HN6IGRNVVUB3 completed.
+2024-09-11 14:27:25.357 -03:00 [DBG] Connection id "0HN6IGRNVVUB3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:27:25.407 -03:00 [DBG] Connection id "0HN6IGRNVVUB3" stopped.
+2024-09-11 14:27:32.865 -03:00 [DBG] Connection id "0HN6IGRNVVUB4" accepted.
+2024-09-11 14:27:32.869 -03:00 [DBG] Connection id "0HN6IGRNVVUB4" started.
+2024-09-11 14:27:32.889 -03:00 [DBG] Connection 0HN6IGRNVVUB4 established using the following protocol: "Tls12"
+2024-09-11 14:27:32.919 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-11 14:27:32.986 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 66.0265ms
+2024-09-11 14:27:33.651 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/_vs/browserLink - null null
+2024-09-11 14:27:34.005 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/_vs/browserLink - 200 null text/javascript; charset=UTF-8 353.3419ms
+2024-09-11 14:27:37.407 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/swagger/v1/swagger.json - null null
+2024-09-11 14:27:37.429 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-09-11 14:27:37.438 -03:00 [DBG] Request did not match any endpoints
+2024-09-11 14:27:38.721 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1307.8656ms
+2024-09-11 14:27:38.977 -03:00 [DBG] Connection id "0HN6IGRNVVUB4" received FIN.
+2024-09-11 14:27:38.988 -03:00 [DBG] Connection id "0HN6IGRNVVUB4" is closed. The last processed stream ID was 5.
+2024-09-11 14:27:38.988 -03:00 [DBG] The connection queue processing loop for 0HN6IGRNVVUB4 completed.
+2024-09-11 14:27:39.005 -03:00 [DBG] Connection id "0HN6IGRNVVUB4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:27:39.206 -03:00 [DBG] Connection id "0HN6IGRNVVUB4" stopped.
+2024-09-11 14:32:12.420 -03:00 [DBG] Connection id "0HN6IGRNVVUB5" accepted.
+2024-09-11 14:32:13.436 -03:00 [DBG] Connection id "0HN6IGRNVVUB5" started.
+2024-09-11 14:32:13.609 -03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-11 14:32:14.003 -03:00 [DBG] Connection id "0HN6IGRNVVUB5" stopped.
+2024-09-11 14:32:14.015 -03:00 [DBG] Connection id "0HN6IGRNVVUB5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:33:37.070 -03:00 [DBG] Connection id "0HN6IGRNVVUB6" accepted.
+2024-09-11 14:33:37.225 -03:00 [DBG] Connection id "0HN6IGRNVVUB6" started.
+2024-09-11 14:33:37.243 -03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-11 14:33:37.287 -03:00 [DBG] Connection id "0HN6IGRNVVUB6" stopped.
+2024-09-11 14:33:37.299 -03:00 [DBG] Connection id "0HN6IGRNVVUB6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:33:51.062 -03:00 [DBG] Connection id "0HN6IGRNVVUB7" accepted.
+2024-09-11 14:33:51.087 -03:00 [DBG] Connection id "0HN6IGRNVVUB7" started.
+2024-09-11 14:33:51.172 -03:00 [DBG] Connection 0HN6IGRNVVUB7 established using the following protocol: "Tls12"
+2024-09-11 14:33:51.247 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7173/MyTasks/GetAllTasks - null null
+2024-09-11 14:33:52.156 -03:00 [DBG] 1 candidate(s) found for the request path '/MyTasks/GetAllTasks'
+2024-09-11 14:33:52.171 -03:00 [DBG] Endpoint 'MyTasks.API.Controllers.MyTasksController.Get (MyTasks.API)' with route pattern 'MyTasks/GetAllTasks' is valid for the request path '/MyTasks/GetAllTasks'
+2024-09-11 14:33:52.181 -03:00 [DBG] Request matched endpoint 'MyTasks.API.Controllers.MyTasksController.Get (MyTasks.API)'
+2024-09-11 14:33:52.207 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-09-11 14:33:52.223 -03:00 [INF] Executing endpoint 'MyTasks.API.Controllers.MyTasksController.Get (MyTasks.API)'
+2024-09-11 14:33:52.437 -03:00 [INF] Route matched with {action = "Get", controller = "MyTasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MyTasks.API.DTOs.MyTaskDTO]] Get() on controller MyTasks.API.Controllers.MyTasksController (MyTasks.API).
+2024-09-11 14:33:52.521 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-11 14:33:52.661 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-11 14:33:52.698 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-11 14:33:52.731 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-11 14:33:52.779 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-11 14:33:52.809 -03:00 [DBG] Executing controller factory for controller MyTasks.API.Controllers.MyTasksController (MyTasks.API)
+2024-09-11 14:33:53.637 -03:00 [DBG] Executed controller factory for controller MyTasks.API.Controllers.MyTasksController (MyTasks.API)
+2024-09-11 14:33:53.665 -03:00 [INF] Iniciando o processamento da requisição
+2024-09-11 14:33:55.125 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-11 14:33:55.174 -03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-09-11 14:33:55.181 -03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-09-11 14:33:55.191 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-11 14:33:55.194 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-11 14:33:55.211 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-11 14:33:55.269 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyTasks.API.DTOs.MyTaskDTO, MyTasks.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-11 14:33:55.473 -03:00 [INF] Executed action MyTasks.API.Controllers.MyTasksController.Get (MyTasks.API) in 2643.5443ms
+2024-09-11 14:33:55.556 -03:00 [INF] Executed endpoint 'MyTasks.API.Controllers.MyTasksController.Get (MyTasks.API)'
+2024-09-11 14:33:55.574 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7173/MyTasks/GetAllTasks - 200 null application/json; charset=utf-8 4325.845ms
+2024-09-11 14:33:59.124 -03:00 [DBG] Connection id "0HN6IGRNVVUB7" received FIN.
+2024-09-11 14:33:59.138 -03:00 [DBG] Connection id "0HN6IGRNVVUB7" is closed. The last processed stream ID was 1.
+2024-09-11 14:33:59.138 -03:00 [DBG] The connection queue processing loop for 0HN6IGRNVVUB7 completed.
+2024-09-11 14:33:59.141 -03:00 [DBG] Connection id "0HN6IGRNVVUB7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:33:59.226 -03:00 [DBG] Connection id "0HN6IGRNVVUB7" stopped.
+2024-09-11 14:37:01.493 -03:00 [DBG] Connection id "0HN6IGRNVVUB8" accepted.
+2024-09-11 14:37:02.982 -03:00 [DBG] Connection id "0HN6IGRNVVUB8" started.
+2024-09-11 14:37:02.989 -03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-11 14:37:03.032 -03:00 [DBG] Connection id "0HN6IGRNVVUB8" stopped.
+2024-09-11 14:37:03.719 -03:00 [DBG] Connection id "0HN6IGRNVVUB8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-11 14:39:23.898 -03:00 [DBG] Connection id "0HN6IGRNVVUB9" accepted.
+2024-09-11 14:39:25.750 -03:00 [DBG] Connection id "0HN6IGRNVVUB9" started.
+2024-09-11 14:39:25.768 -03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-11 14:39:25.786 -03:00 [DBG] Connection id "0HN6IGRNVVUB9" stopped.
+2024-09-11 14:39:25.789 -03:00 [DBG] Connection id "0HN6IGRNVVUB9" sending FIN because: "The Socket transport's send loop completed gracefully."

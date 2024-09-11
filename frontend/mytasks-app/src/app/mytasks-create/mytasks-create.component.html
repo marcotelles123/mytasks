@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <form [formGroup]="taskForm">
+        <div class="form-group">
+          <label for="title">Título:</label>
+          <input type="text" class="form-control" id="title"  formControlName="title" [(ngModel)]="title">
+          <div *ngIf="taskForm.controls['title'].errors?.['required']" class="alert alert-danger">
+            O título é obrigatório.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="description">Descrição:</label>
+          <textarea class="form-control" id="description" rows="3" [(ngModel)]="description" formControlName="description"></textarea>
+        </div>
+        <button type="submit" [disabled]="!taskForm.valid" class="btn btn-primary" (click)="salvar()">Salvar</button>
+        <button class="btn btn-secondary" routerLink="/mystaskslist">Cancelar</button>
+      </form>
+      </div>
+    </div>
+  </div>

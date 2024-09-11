@@ -1,0 +1,47 @@
+# Visual Studio
+*.suo
+*.user
+*.cache
+*.tmp
+*.log
+*.obj
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/*
+
+# Build outputs
+bin/
+obj/
+
+# Packages
+packages/
+
+# Local application data
+*.db
+*.fdb
+*.idb
+*.pdb
+
+# Other
+*.suo
+*.user
+*.tmp
+*.log
+*.orig
+*.bak
+*.old
+*.swp
+
+# Local IDE settings
+.vs/
+
+# Output files
+*.exe
+*.dll
+
+# Test results
+test-results
+
+# User-specific files
+*.user
